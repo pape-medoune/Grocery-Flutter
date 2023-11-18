@@ -1,4 +1,5 @@
 import 'package:app/Pages/IntroPage.dart';
+import 'package:app/Pages/card.dart';
 import 'package:app/Pages/market.dart';
 import 'package:flutter/material.dart';
 
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
       routes: {
         'IntroPage':(_)=>IntroPage(),   
         'market':(_)=>Market(),      
+        'card':(_)=>CardPurchase(),
       },
     );
   }

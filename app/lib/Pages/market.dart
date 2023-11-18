@@ -14,9 +14,11 @@ class _MarketState extends State<Market> {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
-        child: const Icon(Icons.shopping_cart),
+        child: const Icon(
+          Icons.shopping_cart,
+        ),
         onPressed: () {
-          //
+          Navigator.of(context).pushNamed('card');
         },
       ),
       body: SafeArea(
